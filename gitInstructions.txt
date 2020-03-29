@@ -1,0 +1,9 @@
+
+https://stackoverflow.com/questions/24114676/git-error-failed-to-push-some-refs-to
+
+rm -rf .git   or del -rf .git
+git init
+git add .
+git commit -m"first message"
+git remote add origin https://github.com/steveshvets/springframeworkguru-spring-boot-actuator.git
+git push -u origin master
